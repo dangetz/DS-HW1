@@ -43,7 +43,7 @@ bdiv{
     </ul>
 <main>
 <bdiv>
-<table class="table">
+<table class="table" id="contactTable">
   <thead>
     <tr>
       <th scope="col">Contact Method</th>
@@ -120,5 +120,10 @@ bdiv{
 
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+
+
+<script src='js/tablesort.min.js'></script>
+<script> new Tablesort(document.getElementById('contactTable'));</script>
+
 <bdiv>
 </main>
